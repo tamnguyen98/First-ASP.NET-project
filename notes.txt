@@ -1,0 +1,21 @@
+Section one:
+	- Use a already built system that implements users credentials
+	- Program.cs is the main part of ASP
+	- Startup.cs is what get initialized first
+	- appsettings.json where we store all of our settings
+		+ manage users secret (right click on appsetting.json)
+	- wwwroot folder holds all static resource, like favicon, css, and js file
+	- with cshtml (razor):
+		+ to call variables, you use @ prefix variables
+	- MVC app contains Model, View, Controller folder compare to just pages in Razor
+	- A return View() in a controller, by default, will give you a Views>what ever the controller belong to> Index.cshtml
+	- The API is soley for backend
+	- controllers for MVC and API are pretty much the same
+	
+Setting up a database project for app that sets up a db CRUD
+	- Set up a SQL Server Database Project (make sure that you have Data storage and processing AND .NET core cross-platform development installed in the tools)
+	- Make a "dbo" folder (database owner)
+		- Make a subfolder for Tables and Stored Procedures
+	- Make a scripts folder 
+	- Purpose of these folders are for easy visualization and reduce human error via automation
+		

@@ -18,4 +18,9 @@ Setting up a database project for app that sets up a db CRUD
 		- Make a subfolder for Tables and Stored Procedures
 	- Make a scripts folder 
 	- Purpose of these folders are for easy visualization and reduce human error via automation
+	- In the table settup, it doesnt matter where you add attributes, other box will update too
+	- Data types:
+		nvarchar can hold more characters than regular varchar becuase of unicode
+		money deals with prices (Decimals
+		datetime2 is newer and more efficient than one.
 		

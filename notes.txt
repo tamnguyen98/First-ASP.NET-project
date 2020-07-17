@@ -37,6 +37,22 @@ Making Class Library (Make sure it's a c# .net core)
 	- ConnectionStringData let us modify the connection name quickly and easily in that file
 	-IDataAccess is the main interface (communication) to reference the functions in the SqlDb.cs
 	- Once finish, we can build project (Release) and use the dll in other projects
+	- Difference  between mvvm vs mvc is mvc is a one way bind where mvvm is two
+	- You can change OnGet and OnSet to be async task instead of void
+	- cshtml "asp-for" define what the name of the element should be and what it should like to base on the cs file
+		+ also set requirement on what the input should be (e.g text, int, etc.)
+	- cshtml "asp-validation-for" set a validation for a specific element input
+	- cshtml "asp-items" for select tag give you the list defined in the cs class (note select must be closed with </select>)
+	
+Make Blazor Pages: Netcore web app
+	- To add dll (dependecies injection), you need to right click dependecies and add project reference > browse > locate the dll
+	- Singleton lives the lifespan of the project and everyone has access to it.
+	- Scope is only for that only particular instance
+	- Transient will give you a new instance everytime you ask for it.
+	- Add the dependecies injection in the ConfigureSevices in startup.cs
+	- Routing in Razor works by Pages directory, and everything that is a children of Pages folder is the first /
+		E.g Pages > Error.cshtml will have a route of example.com/Error
+		and Pages > this > that.cshtml will be example.com/this/that
 		
 Coding tips:
 	Type "ctor" and hit tab twice to autogenerate a code block

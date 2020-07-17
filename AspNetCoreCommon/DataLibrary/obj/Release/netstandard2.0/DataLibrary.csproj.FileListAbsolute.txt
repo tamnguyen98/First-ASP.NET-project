@@ -1,0 +1,8 @@
+F:\GitHub\First ASP.NET project\AspNetCoreCommon\DataLibrary\bin\Release\netstandard2.0\DataLibrary.deps.json
+F:\GitHub\First ASP.NET project\AspNetCoreCommon\DataLibrary\bin\Release\netstandard2.0\DataLibrary.dll
+F:\GitHub\First ASP.NET project\AspNetCoreCommon\DataLibrary\bin\Release\netstandard2.0\DataLibrary.pdb
+F:\GitHub\First ASP.NET project\AspNetCoreCommon\DataLibrary\obj\Release\netstandard2.0\DataLibrary.AssemblyInfoInputs.cache
+F:\GitHub\First ASP.NET project\AspNetCoreCommon\DataLibrary\obj\Release\netstandard2.0\DataLibrary.AssemblyInfo.cs
+F:\GitHub\First ASP.NET project\AspNetCoreCommon\DataLibrary\obj\Release\netstandard2.0\DataLibrary.csproj.CoreCompileInputs.cache
+F:\GitHub\First ASP.NET project\AspNetCoreCommon\DataLibrary\obj\Release\netstandard2.0\DataLibrary.dll
+F:\GitHub\First ASP.NET project\AspNetCoreCommon\DataLibrary\obj\Release\netstandard2.0\DataLibrary.pdb

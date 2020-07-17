@@ -36,7 +36,7 @@ Making Class Library (Make sure it's a c# .net core)
 		+ Microsoft.extensions.configuration: Allow us to talk to app.setting.json (connection string)
 	- ConnectionStringData let us modify the connection name quickly and easily in that file
 	-IDataAccess is the main interface (communication) to reference the functions in the SqlDb.cs
-		
+	- Once finish, we can build project (Release) and use the dll in other projects
 		
 Coding tips:
 	Type "ctor" and hit tab twice to autogenerate a code block

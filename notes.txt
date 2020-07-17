@@ -25,4 +25,21 @@ Setting up a database project for app that sets up a db CRUD
 		datetime2 is newer and more efficient than one.
 	- Can only have one postdeploy script!
 		- Scripts is just the sql code
+	- To instantiate a DB, right click the solution and hit publish
+		- If you're planning on making a db more than once, you can "save Profile" of the setting
+		
+Making Class Library (Make sure it's a c# .net core)
+	- Nuget package to install
+		+ Dapper (Micro-ORM):  basically a fast as possible and simple data access
+		+ Microsoft.data.sqlclient: let the project connect to the sql server
+		+ Microsoft.extensions.configuration: Allow us to talk to app.setting.json (connection string)
+	- ConnectionStringData let us modify the connection name quickly and easily in that file
+	-IDataAccess is the main interface (communication) to reference the functions in the SqlDb.cs
+		
+		
+Coding tips:
+	Type "ctor" and hit tab twice to autogenerate a code block
+	- Async is pretty much threading to prevent throttling.
+	- 'using' condition is just a efficient way to keep stuff within the scope (e.g close a connection automatically after it's out of the scope)
+	- You can quickly make an interface for a class by ctrl+. on a class name and "extract interface"
 		

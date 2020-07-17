@@ -1,0 +1,6 @@
+F:\GitHub\First ASP.NET project\AspNetCoreCommon\DinerDB\bin\Debug\DinerDB.dacpac
+F:\GitHub\First ASP.NET project\AspNetCoreCommon\DinerDB\obj\Debug\DinerDB.sqlprojAssemblyReference.cache
+F:\GitHub\First ASP.NET project\AspNetCoreCommon\DinerDB\obj\Debug\DinerDB.dll
+F:\GitHub\First ASP.NET project\AspNetCoreCommon\DinerDB\obj\Debug\DinerDB.pdb
+F:\GitHub\First ASP.NET project\AspNetCoreCommon\DinerDB\bin\Debug\DinerDB.dll
+F:\GitHub\First ASP.NET project\AspNetCoreCommon\DinerDB\bin\Debug\DinerDB.pdb

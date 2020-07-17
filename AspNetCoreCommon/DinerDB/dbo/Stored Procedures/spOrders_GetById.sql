@@ -2,7 +2,7 @@
 	@Id int
 AS
 begin
-	select nocount on;
+	set nocount on;
 
 	select * from dbo.[order]
 	where Id = @Id;

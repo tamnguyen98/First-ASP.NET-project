@@ -27,6 +27,7 @@ Setting up a database project for app that sets up a db CRUD
 		- Scripts is just the sql code
 	- To instantiate a DB, right click the solution and hit publish
 		- If you're planning on making a db more than once, you can "save Profile" of the setting
+	- StoredProcedure is just essentially a script that perform sql functions
 		
 Making Class Library (Make sure it's a c# .net core)
 	- Nuget package to install
@@ -42,4 +43,5 @@ Coding tips:
 	- Async is pretty much threading to prevent throttling.
 	- 'using' condition is just a efficient way to keep stuff within the scope (e.g close a connection automatically after it's out of the scope)
 	- You can quickly make an interface for a class by ctrl+. on a class name and "extract interface"
+	- Type "prop" and tab twice to generate model classes attributes
 		

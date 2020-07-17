@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "dpnKQRNcTWxeSjyYHyihw+dL/4ULPZeXhyeeN4W+fNfz1rknh6+oYFWs/7SwJuEjfuDbbJpUXZOgtCFLM1hIyA==",
+  "dgSpecHash": "4KQj4MXvKvFW44hxsGy+JPQ9pu1zdhIyuXVEk0zKQj5+CqTaKmnYp+l8FjV4LJS/TduZHEAEfvLegfAGIy78pQ==",
   "success": true,
   "projectFilePath": "F:\\GitHub\\First ASP.NET project\\AspNetCoreCommon\\DataLibrary\\DataLibrary.csproj",
   "expectedPackageFiles": [
@@ -44,6 +44,7 @@
     "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections.nongeneric\\4.3.0\\system.collections.nongeneric.4.3.0.nupkg.sha512",
     "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder\\system.collections.specialized\\4.3.0\\system.collections.specialized.4.3.0.nupkg.sha512",
     "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder\\system.componentmodel\\4.3.0\\system.componentmodel.4.3.0.nupkg.sha512",
+    "C:\\Users\\Offline\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder\\system.componentmodel.primitives\\4.3.0\\system.componentmodel.primitives.4.3.0.nupkg.sha512",
     "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder\\system.componentmodel.typeconverter\\4.3.0\\system.componentmodel.typeconverter.4.3.0.nupkg.sha512",
     "C:\\Users\\Offline\\.nuget\\packages\\system.diagnostics.debug\\4.3.0\\system.diagnostics.debug.4.3.0.nupkg.sha512",

@@ -1,9 +1,0 @@
-F:\GitHub\First ASP.NET project\AspNetCoreCommon\DinerDB\bin\Release\DinerDB.dacpac
-F:\GitHub\First ASP.NET project\AspNetCoreCommon\DinerDB\bin\Release\DinerDB.dll
-F:\GitHub\First ASP.NET project\AspNetCoreCommon\DinerDB\bin\Release\DinerDB.pdb
-F:\GitHub\First ASP.NET project\AspNetCoreCommon\DinerDB\obj\Release\Model.xml
-F:\GitHub\First ASP.NET project\AspNetCoreCommon\DinerDB\obj\Release\refactor.xml
-F:\GitHub\First ASP.NET project\AspNetCoreCommon\DinerDB\obj\Release\postdeploy.sql
-F:\GitHub\First ASP.NET project\AspNetCoreCommon\DinerDB\obj\Release\predeploy.sql
-F:\GitHub\First ASP.NET project\AspNetCoreCommon\DinerDB\obj\Release\DinerDB.dll
-F:\GitHub\First ASP.NET project\AspNetCoreCommon\DinerDB\obj\Release\DinerDB.pdb

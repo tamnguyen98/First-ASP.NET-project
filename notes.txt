@@ -56,6 +56,20 @@ Make Blazor Pages: Netcore web app
 		and Pages > this > that.cshtml will be example.com/this/that
 	- [BindProperty(SupportsGet = true)] allows you to get a variable from Get Method
 	- return RedirectToPage("./Display", new { Id = id }); passing  variables
+	
+Making MVC
+	- add services (injection dependency) and add connectionstrings
+	- good practice to use UserScretes for db logins
+	- MVC routes mapping can be define in the app.UseEndpoints in Configure of startup.cs
+	- Routes works by using the Controllers, each page (IactionResult) are defined in the controller, and each controller
+		have its own folder in the views folder for the cshtml
+	- All controllers SHOULD start with the route name follow by "Controller"
+	- To send data from view to controller, there's two ways:
+		1. manually generating the data
+		2. Send a model to view who fills it out and send back: e.g. Controllers>OrdersController.cs> Create()
+	- If a controller's function does not declare the http method, it's GET by default.
+	- Every method is call an Action, so when we want to route to a page's method in a controller, we use RedirectToAction
+		otherwise use view
 		
 Coding tips:
 	Type "ctor" and hit tab twice to autogenerate a code block

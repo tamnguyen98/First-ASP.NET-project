@@ -1,0 +1,28 @@
+﻿@model IEnumerable<DataLibrary.Models.FoodModel>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Menu</h1>
+<table class="table table-striped">
+    <thead class="thead-dark">
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.Id)</th>
+            <th>@Html.DisplayNameFor(model => model.Title)</th>
+            <th>@Html.DisplayNameFor(model => model.Description)</th>
+            <th>@Html.DisplayNameFor(model => model.Price)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var food in Model)
+        {
+            <tr>
+                <td>@Html.DisplayFor(modelItem => food.Id)</td>
+                <td>@Html.DisplayFor(modelItem => food.Title)</td>
+                <td>@Html.DisplayFor(modelItem => food.Description)</td>
+                <td>@Html.DisplayFor(modelItem => food.Price)</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

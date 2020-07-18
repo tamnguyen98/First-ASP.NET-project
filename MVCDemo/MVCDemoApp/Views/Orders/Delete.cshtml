@@ -1,0 +1,20 @@
+﻿@model DataLibrary.Models.OrderModel
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Delete</h1>
+
+@if (Model is null)
+{
+    <h4>Order does not exist</h4>
+}
+else
+{
+    <div class="h4">
+        Confirm delete order?
+    </div>
+    <form asp-action="Delete">
+        <input type="submit" value="Yes" class="btn btn-danger"/>
+    </form>
+}

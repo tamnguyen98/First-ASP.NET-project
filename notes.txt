@@ -45,6 +45,7 @@ Making Class Library (Make sure it's a c# .net core)
 	- cshtml "asp-items" for select tag give you the list defined in the cs class (note select must be closed with </select>)
 	
 Make Blazor Pages: Netcore web app
+	- ALL server side
 	- To add dll (dependecies injection), you need to right click dependecies and add project reference > browse > locate the dll
 	- Singleton lives the lifespan of the project and everyone has access to it.
 	- Scope is only for that only particular instance
@@ -53,6 +54,8 @@ Make Blazor Pages: Netcore web app
 	- Routing in Razor works by Pages directory, and everything that is a children of Pages folder is the first /
 		E.g Pages > Error.cshtml will have a route of example.com/Error
 		and Pages > this > that.cshtml will be example.com/this/that
+	- [BindProperty(SupportsGet = true)] allows you to get a variable from Get Method
+	- return RedirectToPage("./Display", new { Id = id }); passing  variables
 		
 Coding tips:
 	Type "ctor" and hit tab twice to autogenerate a code block

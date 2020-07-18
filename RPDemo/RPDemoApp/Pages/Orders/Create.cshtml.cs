@@ -48,7 +48,9 @@ namespace RPDemoApp.Pages.Orders
 
             int id = await _orderData.CreateOrder(Order);
             Console.WriteLine("Order Created");
-            return RedirectToPage("./Create");
+
+                                               // Pass id over to the display as Id
+            return RedirectToPage("./Display", new { Id = id });
         }
     }
 }

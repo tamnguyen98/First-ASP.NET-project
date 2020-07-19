@@ -71,10 +71,35 @@ Making MVC
 	- Every method is call an Action, so when we want to route to a page's method in a controller, we use RedirectToAction
 		otherwise use view
 		
+Making API: only returns DATA
+	- For page load on debug, go to the project's property > debug > and change the Launch browser
+	- Routes for api normally goes as follow: api/controller/action
+		- In each controller, the route is define by [Route(...)]
+	- Using IActionResult let us return the status code, thought it can return obj
+	- we can add [ProducesResponseType(StatusCodes.StatusXXXX)] to indicate what response code the action can return
+	- It's a good idea to make a Validation attribute (Controller > ValidateModelAttribute.cs) and use it with an action (Order controller> Post())
+	- Creation often uses POST
+	- to return data in a json format quickly, use:  new { key1 = value1, key2 = value2}
+	- To set a set a GET with id from url (ex: this.com/api/order/{id}), use [HttpGet("{id}")]
+	- To actually return data as a response, pass it in the Ok() (ex: return Ok(data));
+	- Use put for order update. For the action, you can accept the following data: action([FromBody]Model varName){}
+	- Use DELETE for deletes, and all confirmations must be made before calling the api
+	- CORS let API talk to set specific domains
+	- If Put/Delete api doesnt work on your web server, add this to your web.config that's in the root of published directory
+		<system.webServer>
+			<modules runAllManagedModulesForAllRequests="false">
+				<remove name="WebDAVModule"/>
+			</modules>
+		</system.webServer>
+	- To allow CORS (any domain to talk to the API), add to Startup.cs:
+		1. in ConfigureServices: services.AddCors(options => {options.AddPolicy("AllowOrigin", builder => builder AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader()); });
+		2. in Configure: app.UseCors("AllowOrigin");
+		
 Coding tips:
 	Type "ctor" and hit tab twice to autogenerate a code block
 	- Async is pretty much threading to prevent throttling.
 	- 'using' condition is just a efficient way to keep stuff within the scope (e.g close a connection automatically after it's out of the scope)
 	- You can quickly make an interface for a class by ctrl+. on a class name and "extract interface"
 	- Type "prop" and tab twice to generate model classes attributes
+	- ctrl+j brings up intellisense
 		

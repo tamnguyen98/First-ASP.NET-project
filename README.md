@@ -5,4 +5,4 @@ This repo contains three project types: Razor pages, MVC, and API. All of them e
 while MVC and Razor demo has a interactable UI (that looks the same).
 
 The UI of the MVC and Razor pages can be seen below with the GIF
-![MVC/Razor Pages](GIF demos/Razor page.gif)
+![MVC/Razor Pages]("GIF demos/Razor page.gif")
